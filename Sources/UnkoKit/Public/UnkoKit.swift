@@ -3,14 +3,14 @@
 
 import UIKit
 
-public struct Unko {
+public struct UnkoDefault {
     public private(set) var unkoString = "💩"
-    public private(set) var unkoCharacterImage = UIImage(resource: .unkoCharacter)
-    public private(set) var unkoRevolutionCharacter = UIImage(resource: .unkoRevolutionCharacter)
+    public private(set) var unkoCharaImage = UIImage(resource: .unkoCharacter)
+    public private(set) var unkoRevoCharaImage = UIImage(resource: .unkoRevolutionCharacter)
 
     public init() {
-        self.unkoString = unkoString
-        self.unkoCharacterImage = unkoCharacterImage
-        self.unkoRevolutionCharacter = unkoRevolutionCharacter
+//        self.unkoString = unkoString
+//        self.unkoCharacterImage = unkoCharacterImage
+//        self.unkoRevolutionCharacter = unkoRevolutionCharacter
     }
 }
