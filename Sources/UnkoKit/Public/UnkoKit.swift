@@ -8,9 +8,5 @@ public struct UnkoDefault {
     public private(set) var unkoCharaImage = UIImage(resource: .unkoCharacter)
     public private(set) var unkoRevoCharaImage = UIImage(resource: .unkoRevolutionCharacter)
 
-    public init() {
-//        self.unkoString = unkoString
-//        self.unkoCharacterImage = unkoCharacterImage
-//        self.unkoRevolutionCharacter = unkoRevolutionCharacter
-    }
+    public init() { }
 }
