@@ -13,15 +13,23 @@
 
 import UnkoKit
 
-let unkoKit = UnkoKit()
+let unkoDefault = UnkoDefault()
 
-unkoKit.unkoString
+unkoDefault.unkoString
 
 ```
 
 出力
 ```
 💩
+```
+
+画像
+```Swift
+    // フリー画像出力
+    unkoDefault.unkoCharaImage
+    // 覚醒フリー画像の出力
+    unkoDefault.unkoRevoCharaImage
 ```
 
 ## Installation
