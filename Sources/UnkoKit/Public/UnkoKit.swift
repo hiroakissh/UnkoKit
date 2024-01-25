@@ -7,6 +7,8 @@ public struct UnkoDefault {
     public private(set) var unkoString = "💩"
     public private(set) var unkoCharaImage = UIImage(resource: .unkoCharacter)
     public private(set) var unkoRevoCharaImage = UIImage(resource: .unkoRevolutionCharacter)
-
+    
     public init() { }
+    
+    public func addUnko() { unkoString + "💩" }
 }
